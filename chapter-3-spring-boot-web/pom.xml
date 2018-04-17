@@ -41,12 +41,27 @@
 
     <build>
         <plugins>
-            <!-- Spring Boot Maven 插件
+            <!-- Spring Boot Maven 插件-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.5.4.RELEASE</version>
             </plugin>
-            -->
+            <!--<plugin>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+                <!--<version>1.5.4.RELEASE</version>-->
+                <!--<configuration>-->
+                    <!--<mainClass>demo.springboot.WebApplication</mainClass>&lt;!&ndash;这个要改成自己的入口类&ndash;&gt;-->
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<goals>-->
+                            <!--<goal>repackage</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
         </plugins>
     </build>
 
